@@ -8,7 +8,7 @@
     "start": "node dist/src/index.js",
     "dev": "nodemon src/index.ts",
     "test": "jest",
-    "prod": "npm run build && npm start"
+    "prod": "npm install && npm run build && npm start"
   },
   "jest": {
     "testPathIgnorePatterns": [
